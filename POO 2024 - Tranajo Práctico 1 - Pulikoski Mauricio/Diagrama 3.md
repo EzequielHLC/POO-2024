@@ -123,8 +123,6 @@ classDiagram
 - **Avion y Aerolinea (Relación Simple):** Un Avión pertenece a una única Aerolínea. Esta relación implica que el avión es propiedad o está asignado exclusivamente a una aerolínea específica.
 - **Avión y Asiento (Relación de Composición):** Un Avión posee múltiples Asientos. Esta es una relación de composición, ya que los asientos no tienen sentido sin el avión. Si el avión es eliminado, sus asientos también lo son.
 
-Reserva --> EstadoReserva: usa
-
 ### 3. Aclaraciones
 
 - Un vuelo puede tener los siguientes valores que reflejan las diferentes etapas o situaciones en las que puede estar:
